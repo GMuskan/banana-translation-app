@@ -1,5 +1,19 @@
+:root{
+    --primary-color: #F2C94C;
+    --black: #333333
+}
+
+body{
+    font-family: 'Kalam', cursive;
+    color: var(--black);
+    overflow: hidden;
+    margin: 0px;
+}
+div{
+    display: block;
+}
 textarea{
-    width: 80%;
+    width: 100%;
     display: block;
     margin: 1rem;
     height: 10vh;
@@ -7,10 +21,64 @@ textarea{
 }
 
 #output{
-    border: 1px solid black;
+    border: 1px solid var(--black);
     height: 10vh;
     width: 80%;
     margin: 1rem;
     padding: 1rem;
 
 }
+.navbar{
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+}
+.heading{
+    padding: 1rem;
+    font-size: 2rem;    
+}
+#btn-translate{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    size: 2rem;
+    margin: 1rem;
+    width:12rem;
+    font-size: 1rem;
+}
+.output-head{
+    font-size: larger;
+    margin: 1rem;
+}
+#output{
+    font-size: large;
+    padding: 1rem;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}
+main{
+    max-width: 600px;
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    margin-left: 25rem;
+}
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    bottom: 0;
+    position:absolute;
+    
+}
+ footer p{
+    text-align: center;
+    display: block;
+    max-width: 600px;
+    margin: auto;
+ }
